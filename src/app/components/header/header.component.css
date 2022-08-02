@@ -1,0 +1,14 @@
+.header {
+  background-color: rgb(105, 120, 65);
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+.header__title {
+  text-align: center;
+}
