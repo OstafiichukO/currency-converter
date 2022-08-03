@@ -1,3 +1,3 @@
 # CurrencyConverter
 
-https://ostafiichuko.github.io/currency-converter/
+https://ostafiichuk-currency-converter.netlify.app/
