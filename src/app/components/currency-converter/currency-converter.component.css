@@ -1,24 +1,36 @@
 .form {
-  padding: 10px;
+  margin-top: 4rem;
 }
 
 .form__wrapper {
-  max-width: 360px;
-  margin: auto;
-  padding: 30px 10px;
   display: flex;
   justify-content: space-around;
+  max-width: 700px;
+  margin: auto;
+  padding: 30px 10px;
+  border: 0.15rem solid green;
+  border-radius: 1rem;
+}
+
+.form__item {
+  display: flex;
   align-items: center;
-  flex-wrap: wrap;
+  font-size: 18px;
 }
 
 .form__input {
-  height: 20px;
-  box-sizing: border-box;
-  max-width: 100px;
+  max-width: 150px;
+  height: 35px;
+  margin: 0 1rem;
+  padding: 0 5px;
+  font-size: 20px;
+  font-weight: 500;
+  border: 0.15rem solid green;
+  border-radius: 0.5rem;
 }
 
 .form__select {
-  height: 20px;
-  box-sizing: border-box;
+  height: 35px;
+  border-radius: 0.5rem;
+  border: 0.15rem solid green;
 }
